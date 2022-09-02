@@ -1,0 +1,48 @@
+.menu-lateral {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--cinza-escuro);
+    width: 60vw;
+    height: 40vh;
+ 
+    position: absolute;
+    left: -100vw;
+    transition: .25s;
+}
+ 
+.menu-lateral--ativo {
+   left: 0;
+   transition: .25s;
+}
+
+.menu-lateral__link {
+   text-transform: uppercase;
+   text-decoration: none;
+   color: var(--branco);
+   padding-left: 2rem;
+   padding-top: 1.7rem;
+   font-family: var(--montserrat);
+}
+
+@media screen and (min-width: 1024px) {
+   .menu-lateral {
+      width: 30vw;
+      height: 75vh;
+  }
+
+   .menu-lateral--ativo {
+      left: 0;
+      transition: .25s;
+   }
+
+   .menu-lateral__link {
+      padding-left: 2rem;
+      padding-top: 3rem;
+      font-family: var(--montserrat);
+   }
+
+   .menu-lateral__link:hover {
+      text-decoration: underline;
+      color: var( --laranja-claro);
+   }
+}

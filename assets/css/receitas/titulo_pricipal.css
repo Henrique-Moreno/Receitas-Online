@@ -1,0 +1,25 @@
+.titilo-receitas_principal {
+    background-color: var(--amarelo);
+    padding: 1em;
+    text-transform: uppercase;
+    font-family: var(--CarterOne);
+    text-align: center;
+}
+
+.titilo-receitas_desktop {
+  display: none;
+}
+
+@media screen and (min-width: 1024px)  {
+    .titilo-receitas_principal {
+     display: none;
+    }
+
+    .titilo-receitas_desktop {
+      font-family: var(--CarterOne);
+      font-size: 3em;
+      color: var(--amarelo);
+      margin-left: 3rem;
+      display: block;
+    }
+}

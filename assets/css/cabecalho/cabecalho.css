@@ -1,0 +1,43 @@
+.cabecalho {
+    background-color: var(--cinza-escuro);
+    height: 5.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ }
+
+.botao_cabecalho {
+   margin: 0 1.2rem;
+   background: none;
+   border: none;
+   font-size: 1.5em;
+   color: var(--branco);
+}
+
+.titulo-principal {
+   text-transform: uppercase;
+   font-family: var(--CarterOne);
+   font-size: 1.5em;
+   color: var(--laranja-claro);
+   /* -webkit-text-stroke: ; */
+}
+
+.linha-cabecalho {
+   margin: 0;
+   color: var(--branco);
+}
+
+@media screen and (min-width: 1024px) {
+   .cabecalho {
+      height: 7rem;
+   }
+
+   .botao_cabecalho {
+      margin: 0 2.5rem;
+      font-size: 2em;
+   }
+
+   .titulo-principal {
+      font-size: 2em;
+   }
+}

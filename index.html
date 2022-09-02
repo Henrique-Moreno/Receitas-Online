@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Receitas Online</title>
+    <link rel="stylesheet" href="assets/css/reset.css"> 
+    <link href="https://fonts.googleapis.com/css2?family=Carter+One&family=Montserrat:wght@300;400;700&family=Poppins:wght@400;500&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="assets/fontsIcones/css/all.min.css">
+    <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="assets/css/base.css">
+</head>
+<body>
+
+    <header class="cabecalho">
+        <button class="botao_cabecalho"><i class="fa-solid fa-bars "></i></button>
+        <h1 class="titulo-principal"><i class="fa-solid fa-bowl-rice"></i>Receitas Online</h1>
+        <button class=" botao_cabecalho"><i class="fa-solid fa-bag-shopping"></i></button>
+    </header>
+    <hr class="linha-cabecalho">
+
+    <nav class="menu-lateral">
+        <a href="#" class="menu-lateral__link">Bolos</a>
+        <a href="#" class="menu-lateral__link">Doces</a>
+        <a href="#" class="menu-lateral__link">Massas</a>
+        <a href="#" class="menu-lateral__link">Sanduíches</a>
+        <a href="#" class="menu-lateral__link">Dicas</a>
+        <a href="#" class="menu-lateral__link">Livros de receitas</a>
+    </nav>
+
+   <section class="barra_pesquisa">
+    <article class="conteudo_pesquisa">
+        <h2 class="titulo_pesquisa">Já sabe por onde começar?</h2>
+        <p class="texto_pesquisa">Escreva o item abaixo e te sugerimos uma receita deliciosa!</p>
+        <input type="search"class="botao_pesquisa" placeholder="Qual será sua próxima receita ?">
+    </article>
+        
+   </section>
+
+   <section class="destaque">
+    <h2 class="destaque_titulo">Destaques da semana</h2>
+
+    <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-pagination"></div>
+
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide"> <img src="assets/img/bolo.jpg" alt="imagem de um bolo "></div>
+          <div class="swiper-slide"><img src="assets/img/hot-dog.jpg" alt=" imagem de um hot-dog"></div>
+          <div class="swiper-slide"><img src="assets/img/pizza.jpg" alt="imagem de uma pizza"></div>
+          ...
+        </div>
+        <!-- If we need pagination -->
+      
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      
+        <!-- If we need scrollbar -->
+        <div class="swiper-scrollbar"></div>
+      </div>
+   </section>
+
+   <section class="destaque_desktop">
+        <article>
+            <a href="#"><img class="img" src="assets/img/bolo.jpg" alt="imagem de um bolo"></a>
+            <h2 class="desktop_titilo">Pratos vencedores da semana.</h2>
+        </article>
+        <article>
+            <a href="#"><img class="img2" src="assets/img/pizza.jpg" alt="imagem de uma pizza"></a>
+        </article>
+
+   </section>
+
+   <h2 class="titilo-receitas_desktop ">Receitas</h2>
+   <section class="conteudo_receitas">
+
+    <h2 class="titilo-receitas_principal ">Receitas</h2>
+
+    <article class="receitas">
+        <a href="#"><img class="receitas_imagem" src="assets/img/feijoada.jpg" alt="imagem de uma feijoada"></a>
+        <p class="texto_receitas">João ensina como fazer uma feijoada fácil e saborosa</p>
+        <h3 class="titulo_receitas">João</h3>
+        <address class="receitas_icones">
+            <a class="icone_receitas" href="#"><i class="fa-solid fa-envelope"></i></a>
+            <a class="icone_receitas" href="#"><i class="fa-brands fa-instagram"></i></a>
+        </address>
+    </article>
+
+    <hr class="linha_receitas">
+
+    <article class="receitas">
+        <a href="#"><img class="receitas_imagem" src="assets/img/spaghetti.jpg" alt="imagem de um prato de spaghetti"></a>
+        <p class="texto_receitas">Lelo ensina como fazer uma macarronada fácil e saborosa.</p>
+        <h3 class="titulo_receitas">Lelo</h3>
+        <address class="receitas_icones">
+            <a class="icone_receitas" href="#"><i class="fa-solid fa-envelope"></i></a>
+            <a class="icone_receitas" href="#"><i class="fa-brands fa-instagram"></i></a>
+        </address>
+    </article>
+
+    <hr class="linha_receitas">
+
+    <article class="receitas">
+        <a href="#"><img class="receitas_imagem" src="assets/img/torta.jpg" alt="imagem de uma torta"></a>
+        <p class="texto_receitas">Rita Lobo ensina como fazer torta fácil e saborosa com molho de melado, limão e pimenta.</p>
+        <h3 class="titulo_receitas">Rita</h3>
+        <address class="receitas_icones">
+            <a class="icone_receitas" href="#"><i class="fa-solid fa-envelope"></i></a>
+            <a class="icone_receitas" href="#"><i class="fa-brands fa-instagram"></i></a>
+        </address>
+    </article>
+
+    <hr class="linha_receitas">
+
+    <article class="receitas">
+        <a href="#"><img class="receitas_imagem" src="assets/img/pastel.png" alt="imagem de um pastel"></a>
+        <p class="texto_receitas">Kah ensina como fazer um pastel fácil e saborosa com...</p>
+        <h3 class="titulo_receitas">Kah</h3>
+        <address class="receitas_icones">
+            <a class="icone_receitas" href="#"><i class="fa-solid fa-envelope"></i></a>
+            <a class="icone_receitas" href="#"><i class="fa-brands fa-instagram"></i></a>
+        </address>
+    </article>
+
+    <hr class="linha_receitas">
+
+    <article class="receitas">
+        <a href="#"><img class="receitas_imagem" src="assets/img/coxinha.jpg" alt="imagem de uma coxinha"></a>
+        <p class="texto_receitas">Pedro ensina como fazer um coxinha fácil e saborosa com...</p>
+        <h3 class="titulo_receitas">Pedro</h3>
+        <address class="receitas_icones">
+            <a class="icone_receitas" href="#"><i class="fa-solid fa-envelope"></i></a>
+            <a class="icone_receitas" href="#"><i class="fa-brands fa-instagram"></i></a>
+        </address>
+    </article>
+
+    <hr class="linha_receitas">
+
+    <article class="receitas">
+        <a href="#"><img class="receitas_imagem" src="assets/img/arroz.jpg" alt="imagem de um prato de arrroz"></a>
+        <p class="texto_receitas">Miqueias ensina como fazer um arroz fácil e saborosa com...</p>
+        <h3 class="titulo_receitas">Miqueias</h3>
+        <address class="receitas_icones">
+            <a class="icone_receitas" href="#"><i class="fa-solid fa-envelope"></i></a>
+            <a class="icone_receitas" href="#"><i class="fa-brands fa-instagram"></i></a>
+        </address>
+    </article>
+
+    <hr class="linha_receitas">
+
+    <article class="receitas">
+        <a href="#"><img class="receitas_imagem" src="assets/img/lasanha.jpg" alt="imagem de uma lasanha"></a>
+        <p class="texto_receitas">Eliano ensina como fazer um pastel fácil e saborosa com...</p>
+        <h3 class="titulo_receitas">Eliano</h3>
+        <address class="receitas_icones">
+            <a class="icone_receitas" href="#"><i class="fa-solid fa-envelope"></i></a>
+            <a class="icone_receitas" href="#"><i class="fa-brands fa-instagram"></i></a>
+        </address>
+    </article>
+
+    <hr class="linha_receitas">
+
+    <article class="receitas">
+        <a href="#"><img class="receitas_imagem" src="assets/img/pancakes.jpg" alt="imagem de panquecas"></a>
+        <p class="texto_receitas">Kah ensina como fazer um panqueca fácil e saborosa com...</p>
+        <h3 class="titulo_receitas">Kah</h3>
+        <address class="receitas_icones">
+            <a class="icone_receitas" href="#"><i class="fa-solid fa-envelope"></i></a>
+            <a class="icone_receitas" href="#"><i class="fa-brands fa-instagram"></i></a>
+        </address>
+    </article>
+
+    <hr class="linha_receitas linha_ativa">
+   </section>
+
+   <section class="videos">
+    <h2 class="titulo_videos">Videos</h2>
+    
+    <article class="receitas_videos">
+        <iframe class="videos_youtube" width="100%" height="200" src="https://www.youtube.com/embed/T4NOt727wqI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <p class="texto_videos">Com a chegada do inverno nada melhor do que um lanche para aquecer a temperatura.</p>
+    </article>
+
+    <hr class="linha_videos">
+
+    <article class="receitas_videos">
+        <iframe class="videos_youtube" width="100%" height="200" src="https://www.youtube.com/embed/6pQnLI9snBI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <p class="texto_videos">Perfeitas para o fim de semana, estas receitas de churrasco vão alegrar suas confraternizações com muita comida boa.</p>
+    </article>
+
+   </section>
+
+   <h2 class="titilo-videos_desktop ">Videos</h2>
+   <section class="videos_desktop">
+
+    <article class="videos-receitas_desktop">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/T4NOt727wqI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <p class="texto-videos-desktop">Com a chegada do inverno nada melhor...</p>
+    </article>
+
+    <article class="videos-receitas_desktop">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/6pQnLI9snBI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <p class="texto-videos-desktop">Perfeitas para o fim de semana, estas receitas de churrasco...</p>
+    </article>
+   </section>
+
+   <hr class="linnha-rodape-desktop">
+   <footer class="rodape">
+    <hr class="linha_rodape">
+    <address>
+        <h3 class="titulo__rodape">Se conecte com a gente</h3>
+        <i class="fa-brands fa-instagram icone__rodape"></i>
+        <i class="fa-brands fa-square-facebook icone__rodape"></i>
+        <i class="fa-brands fa-twitter icone__rodape"></i>
+    </address>
+    <p class="criador">Criação e performance Henrique.Web &COPY;</p>
+</footer>
+
+    <script src="assets/js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+            spaceBetween: 10,
+            pagination: {
+                el: '.swiper-pagination',
+                type: 'bullets',
+            },
+        });
+    </script>
+    
+    
+</body>
+</html>

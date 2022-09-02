@@ -1,0 +1,10 @@
+.receitas_icones {
+    padding-top: .75em;
+    margin-left: .30em;
+}
+
+.icone_receitas {
+    color: var(--cinza-escuro);
+    padding-top: .35em;
+    margin-left: .35em;
+}

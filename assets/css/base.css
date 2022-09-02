@@ -1,0 +1,50 @@
+@import url(cabecalho/cabecalho.css);
+@import url(menu-lateral/menu-leteral.css);
+@import url(barra-de-pesquisa/barra-pesquisa.css);
+@import url(destaque/destaque.css);
+
+@import url(receitas/conteudo_receitas.css);
+@import url(receitas/titulo_pricipal.css);
+@import url(receitas/receitas.css);
+@import url(receitas/icones_receitas.css);
+@import url(videos/videos.css);
+@import url(rodape/rodape.css);
+
+:root {
+    --cinza-escuro: #262223;
+    --verde: #71D955;
+    --amarelo: #F29F05;
+    --laranja-claro: #F28907;
+    --laranja-escuro: #D95407;
+    --branco: #F2F2F2;
+    --preto: #0D0D0D;
+
+    /* fonts */
+    --montserrat: 'Montserrat', sans-serif;
+    --CarterOne: 'Carter One', cursive;
+    --Poppins: 'Poppins', sans-serif;
+
+}
+
+body {
+   background-color: var(--cinza-escuro);
+}
+
+/* and (min-width: 1024px) */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
