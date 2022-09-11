@@ -15,7 +15,12 @@
 
 ![Captura de Tela (25)](https://user-images.githubusercontent.com/88099935/188294375-21d34eb4-2b2d-447b-8c1b-cb38a051c141.png)
 
-## Tecnologias utilizadas HTML, CSS, JAVASCRIPT.
+<div style="display: inline_block"><br/>
+<p>Tecnologias utilizadas</p>
+  <img align="center" alt="html5" src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
+  <img align="center" alt="html5" src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
+  <img align="center" alt="html5" src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
+  </div>
 
 ## Para criar a interface do projeto eu utilezei Adobe XD.
 
